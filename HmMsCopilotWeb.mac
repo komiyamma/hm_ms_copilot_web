@@ -1,5 +1,5 @@
 ﻿/*
- * HmMsCopilotWeb v 1.0.0.1
+ * HmMsCopilotWeb v 1.0.0.2
  *
  * Copyright (c) 2025 Akitsugu Komiyama
  * under the MIT License
@@ -157,7 +157,7 @@ function onCompleteBrowserPane() {
         com.PasteToBrowserPane();
     } catch(e) {
     } finally {
-        timeHandleOfDoMain = hidemaru.setTimeout(onPastedBrowserPane, 3000);
+        timeHandleOfDoMain = hidemaru.setTimeout(onPastedBrowserPane, 2000);
     }
 }
 
