@@ -1,5 +1,5 @@
 ﻿/*
- * HmMsCopilotWeb v 1.0.0.3
+ * HmMsCopilotWeb v 1.0.0.4
  *
  * Copyright (c) 2025 Akitsugu Komiyama
  * under the MIT License
@@ -162,22 +162,21 @@ function onCompleteBrowserPane() {
         escapeselect();
         const eachBrowserPane = 6;
         setfocus(eachBrowserPane);
+        browserpanecommand({
+            target: "_each",
+            "focusinputfield" : 1
+        });
         const com = createobject(currentMacroDirectory + "\\HmMsCopilotWeb.dll", "HmMsCopilotWeb.HmMsCopilotWeb");
         com.PasteToBrowserPane();
     } catch(e) {
     } finally {
-        timeHandleOfDoMain = hidemaru.setTimeout(onPastedBrowserPane, 2000);
+        timeHandleOfDoMain = hidemaru.setTimeout(onBeginAIAnswer, 2000);
     }
 }
 
 var orgFocus = getfocus();
-function setFocus() {
+function onBeginAIAnswer() {
     setfocus(orgFocus);
-}
-
-function onPastedBrowserPane() {
-    // setfocusは非同期で効いていない？
-    hidemaru.postExecMacroMemory("js { setFocus(); }");
 }
 
 
