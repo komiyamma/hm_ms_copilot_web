@@ -1,0 +1,6 @@
+C:\Users\master\source\repos\HmMsCopilotWeb\HmMsCopilotWeb\obj\Release\HmMsCopilotWeb.csproj.AssemblyReference.cache
+C:\Users\master\source\repos\HmMsCopilotWeb\HmMsCopilotWeb\obj\Release\HmMsCopilotWeb.csproj.CoreCompileInputs.cache
+C:\Users\master\source\repos\HmMsCopilotWeb\HmMsCopilotWeb\bin\Release\HmMsCopilotWeb.dll
+C:\Users\master\source\repos\HmMsCopilotWeb\HmMsCopilotWeb\bin\Release\HmMsCopilotWeb.pdb
+C:\Users\master\source\repos\HmMsCopilotWeb\HmMsCopilotWeb\obj\Release\HmMsCopilotWeb.dll
+C:\Users\master\source\repos\HmMsCopilotWeb\HmMsCopilotWeb\obj\Release\HmMsCopilotWeb.pdb
