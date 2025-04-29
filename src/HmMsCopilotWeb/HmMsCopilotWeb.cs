@@ -27,11 +27,16 @@ public partial class HmMsCopilotWeb
     private const byte VK_C = 0x43;
     private const byte VK_V = 0x56;
     private const byte VK_RETURN = 0x0D;
+
     private const byte VK_TAB = 0x09; // タブキーの仮想キーコード
 
 
-    public void PasteToBrowserPane()
+    public void PasteToBrowserPane(String text)
     {
+
+        // クリップボードにテキストを保存
+        Clipboard.SetText(text);
+
         // 以下を非同期実行にする
         Task.Run(async () =>
         {
@@ -43,10 +48,7 @@ public partial class HmMsCopilotWeb
             SendReturn();
             // Enter を送信
             await Task.Delay(300);
-            /*
-            SendReturn();
-            await Task.Delay(300);
-            */
+
         });
     }
 
