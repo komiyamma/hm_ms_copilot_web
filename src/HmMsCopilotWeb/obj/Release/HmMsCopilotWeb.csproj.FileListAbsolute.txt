@@ -4,3 +4,9 @@ C:\Users\master\source\repos\HmMsCopilotWeb\HmMsCopilotWeb\bin\Release\HmMsCopil
 C:\Users\master\source\repos\HmMsCopilotWeb\HmMsCopilotWeb\bin\Release\HmMsCopilotWeb.pdb
 C:\Users\master\source\repos\HmMsCopilotWeb\HmMsCopilotWeb\obj\Release\HmMsCopilotWeb.dll
 C:\Users\master\source\repos\HmMsCopilotWeb\HmMsCopilotWeb\obj\Release\HmMsCopilotWeb.pdb
+G:\repogitory\hm_ms_copilot_web\src\HmMsCopilotWeb\bin\Release\HmMsCopilotWeb.dll
+G:\repogitory\hm_ms_copilot_web\src\HmMsCopilotWeb\bin\Release\HmMsCopilotWeb.pdb
+G:\repogitory\hm_ms_copilot_web\src\HmMsCopilotWeb\obj\Release\HmMsCopilotWeb.csproj.AssemblyReference.cache
+G:\repogitory\hm_ms_copilot_web\src\HmMsCopilotWeb\obj\Release\HmMsCopilotWeb.csproj.CoreCompileInputs.cache
+G:\repogitory\hm_ms_copilot_web\src\HmMsCopilotWeb\obj\Release\HmMsCopilotWeb.dll
+G:\repogitory\hm_ms_copilot_web\src\HmMsCopilotWeb\obj\Release\HmMsCopilotWeb.pdb
