@@ -1,5 +1,5 @@
 ﻿/*
- * HmMsCopilotWeb v 1.0.0.4
+ * HmMsCopilotWeb v 1.0.0.3
  *
  * Copyright (c) 2025 Akitsugu Komiyama
  * under the MIT License
@@ -149,7 +149,9 @@ function waitBrowserPane() {
     });
     
     if (status == "complete") {
-        onCompleteBrowserPane();
+        const eachBrowserPane = 6;
+        setfocus(eachBrowserPane);
+        timeHandleOfDoMain = hidemaru.setTimeout(onCompleteBrowserPane, 300);
     }
     
     else {
@@ -159,7 +161,6 @@ function waitBrowserPane() {
 
 function onCompleteBrowserPane() {
     try {
-        escapeselect();
         const eachBrowserPane = 6;
         setfocus(eachBrowserPane);
         browserpanecommand({

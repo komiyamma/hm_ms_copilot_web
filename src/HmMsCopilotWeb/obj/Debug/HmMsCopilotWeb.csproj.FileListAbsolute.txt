@@ -1,0 +1,6 @@
+G:\repogitory\hm_ms_copilot_web\src\HmMsCopilotWeb\bin\Debug\HmMsCopilotWeb.dll
+G:\repogitory\hm_ms_copilot_web\src\HmMsCopilotWeb\bin\Debug\HmMsCopilotWeb.pdb
+G:\repogitory\hm_ms_copilot_web\src\HmMsCopilotWeb\obj\Debug\HmMsCopilotWeb.csproj.AssemblyReference.cache
+G:\repogitory\hm_ms_copilot_web\src\HmMsCopilotWeb\obj\Debug\HmMsCopilotWeb.csproj.CoreCompileInputs.cache
+G:\repogitory\hm_ms_copilot_web\src\HmMsCopilotWeb\obj\Debug\HmMsCopilotWeb.dll
+G:\repogitory\hm_ms_copilot_web\src\HmMsCopilotWeb\obj\Debug\HmMsCopilotWeb.pdb
