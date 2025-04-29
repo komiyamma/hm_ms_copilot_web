@@ -1,5 +1,5 @@
 ﻿/*
- * HmMsCopilotWeb v 1.0.0.3
+ * HmMsCopilotWeb v 1.0.0.4
  *
  * Copyright (c) 2025 Akitsugu Komiyama
  * under the MIT License
@@ -31,32 +31,6 @@ const com = createobject(`${currentMacroDirectory}\\${renderPaneTargetName}.dll`
 
 const script = hidemaru.loadTextFile(currentMacroDirectory + "\\HmConvAIWeb.js");
 eval(script);
-
-// ブラウザウィンドウオープン
-function openRenderPaneCommand(text) {
-
-    // 個別ブラウザ枠が、このCopilotだと思われるならば、
-    let url = browserpanecommand({
-        "target": "_each",
-        "get": "url",
-    });
-
-    // 開かれていない時だけ...
-    if (!url.includes(baseUrl)) {
-        let renderPaneOriginalParam = {
-            url: baseUrl,
-            target: "_each",
-            initialize: "async",
-            show: 1
-        };
-        
-        const browserPaneMixParam = { ...renderPaneOriginalParam, ...renderPaneCustomParam };
-        
-        browserpanecommand(browserPaneMixParam);
-    }
-    
-    hidemaru.setTimeout(waitBrowserPane, 0, text);
-}
 
 doMain();
 

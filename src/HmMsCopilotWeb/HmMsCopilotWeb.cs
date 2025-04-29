@@ -1,4 +1,7 @@
 ﻿using System;
+using System.Diagnostics;
+using System.IO;
+using System.Reflection;
 using System.Runtime.InteropServices;
 using System.Threading;
 using System.Threading.Tasks;
@@ -34,22 +37,18 @@ public partial class HmMsCopilotWeb
     public void PasteToBrowserPane(String text)
     {
         CaptureClipboard();
+        // クリップボードにテキストを保存
         Clipboard.SetText(text);
 
         // 以下を非同期実行にする
         Task.Run(async () =>
         {
-            await Task.Delay(200);
-            // クリップボードにテキストを保存
-            await Task.Delay(200);
+            await Task.Delay(400);
             SendCtrlV();
             await Task.Delay(300);
 
             // Enter を送信
             SendReturn();
-            // Enter を送信
-            await Task.Delay(300);
-
         });
     }
 
