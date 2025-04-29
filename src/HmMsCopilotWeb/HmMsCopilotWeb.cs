@@ -33,14 +33,15 @@ public partial class HmMsCopilotWeb
 
     public void PasteToBrowserPane(String text)
     {
-
-        // クリップボードにテキストを保存
+        CaptureClipboard();
         Clipboard.SetText(text);
 
         // 以下を非同期実行にする
         Task.Run(async () =>
         {
-            await Task.Delay(400);
+            await Task.Delay(200);
+            // クリップボードにテキストを保存
+            await Task.Delay(200);
             SendCtrlV();
             await Task.Delay(300);
 
