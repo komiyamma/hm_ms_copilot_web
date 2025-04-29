@@ -192,6 +192,10 @@ function saveClipBoard() {
 
 function restoreClipBoard() {
     try {
+        // Windows 10 の 1809 以降にはクリップボード履歴がある
+        var processInfo = hidemaru.runProcess(currentMacroDirectory + "\\ClipboardHistoryManager.exe", ".", "stdio", "sjis" );
+        
+        // 普通のクリップボードの復元
         com.RestoreClipboard();
     } catch(e) {}
 }
