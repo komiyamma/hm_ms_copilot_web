@@ -192,7 +192,6 @@ function captureClipBoard() {
     } catch(e) {}
 }
 
-debuginfo(2);
 function restoreClipBoard() {
     try {
         // Windows 10 の 1809 以降にはクリップボード履歴がある
