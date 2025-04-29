@@ -149,8 +149,7 @@ function waitBrowserPane() {
     });
     
     if (status == "complete") {
-        const eachBrowserPane = 6;
-        setfocus(eachBrowserPane);
+        setFocusToBrowserPane();
         timeHandleOfDoMain = hidemaru.setTimeout(onCompleteBrowserPane, 300);
     }
     
@@ -161,11 +160,9 @@ function waitBrowserPane() {
 
 function onCompleteBrowserPane() {
     try {
-        const eachBrowserPane = 6;
-        setfocus(eachBrowserPane);
         browserpanecommand({
             target: "_each",
-            "focusinputfield" : 1
+            "focusinputfield" : 1,
         });
         const com = createobject(currentMacroDirectory + "\\HmMsCopilotWeb.dll", "HmMsCopilotWeb.HmMsCopilotWeb");
         com.PasteToBrowserPane();
@@ -173,6 +170,11 @@ function onCompleteBrowserPane() {
     } finally {
         timeHandleOfDoMain = hidemaru.setTimeout(onBeginAIAnswer, 2000);
     }
+}
+
+function setFocusToBrowserPane() {
+    const eachBrowserPane = 6;
+    setfocus(eachBrowserPane);
 }
 
 var orgFocus = getfocus();
