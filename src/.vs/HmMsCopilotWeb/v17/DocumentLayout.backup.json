@@ -3,11 +3,11 @@
   "WorkspaceRootPath": "G:\\repogitory\\hm_ms_copilot_web\\src\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{639E24AA-EC0C-4F23-ABAE-26D302E17C3E}|HmMsCopilotWeb\\HmMsCopilotWeb.csproj|G:\\repogitory\\hm_ms_copilot_web\\src\\hmmscopilotweb\\clipboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{639E24AA-EC0C-4F23-ABAE-26D302E17C3E}|HmMsCopilotWeb\\HmMsCopilotWeb.csproj|g:\\repogitory\\hm_ms_copilot_web\\src\\hmmscopilotweb\\clipboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{639E24AA-EC0C-4F23-ABAE-26D302E17C3E}|HmMsCopilotWeb\\HmMsCopilotWeb.csproj|solutionrelative:hmmscopilotweb\\clipboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{639E24AA-EC0C-4F23-ABAE-26D302E17C3E}|HmMsCopilotWeb\\HmMsCopilotWeb.csproj|g:\\repogitory\\hm_ms_copilot_web\\src\\hmmscopilotweb\\hmmscopilotweb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{639E24AA-EC0C-4F23-ABAE-26D302E17C3E}|HmMsCopilotWeb\\HmMsCopilotWeb.csproj|G:\\repogitory\\hm_ms_copilot_web\\src\\hmmscopilotweb\\hmmscopilotweb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{639E24AA-EC0C-4F23-ABAE-26D302E17C3E}|HmMsCopilotWeb\\HmMsCopilotWeb.csproj|solutionrelative:hmmscopilotweb\\hmmscopilotweb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -46,7 +46,7 @@
               "RelativeDocumentMoniker": "HmMsCopilotWeb\\ClipBoard.cs",
               "ToolTip": "G:\\repogitory\\hm_ms_copilot_web\\src\\HmMsCopilotWeb\\ClipBoard.cs",
               "RelativeToolTip": "HmMsCopilotWeb\\ClipBoard.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAgwGIAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAF4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-29T09:38:29.589Z",
               "EditorCaption": ""
@@ -61,8 +61,7 @@
               "RelativeToolTip": "HmMsCopilotWeb\\HmMsCopilotWeb.cs",
               "ViewState": "AgIAAC0AAAAAAAAAAADwv0MAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-28T17:25:06.688Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-28T17:25:06.688Z"
             }
           ]
         }
