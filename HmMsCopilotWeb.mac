@@ -1,5 +1,5 @@
 ﻿/*
- * HmMsCopilotWeb v 1.1.1.5
+ * HmMsCopilotWeb v 1.1.1.6
  *
  * Copyright (c) 2025 Akitsugu Komiyama
  * under the MIT License
@@ -70,6 +70,11 @@ function useInputTransfer() {
     return true;
 }
 
+function waitBrowserPaneDecorator(status) {
+    if (status == "loading") {
+        return 1200;
+    }
+}
 doMain();
 
 }
