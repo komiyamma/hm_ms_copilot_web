@@ -70,6 +70,15 @@ function useInputTransfer() {
     return true;
 }
 
+function onPrevKeySendDecorator() {
+    
+    try {
+        // Copilotのインプット枠へのフォーカス。手堅いが将来変更になるかも。これがなくても一応はuseInputTransferだけでフォーカスするハズ
+        browserpanecommand({target:"_each", focusinputfield:'[aria-label="Copilot へメッセージを送る"]'});
+    } catch(e) {
+    }
+}
+
 function waitBrowserPaneDecorator(status) {
     if (status == "loading") {
         return 1200;
